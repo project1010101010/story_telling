@@ -1,7 +1,6 @@
 *{
     margin: 0%;
     padding: 0%;
-    font-family: 'Montserrat Alternates', sans-serif;
 }
 html{
     scroll-behavior: smooth;
@@ -40,6 +39,7 @@ head{
     margin: auto;
     justify-content: center;
     font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
     color: white;
     border: solid #FFBD59 10px;
     border-top: solid transparent 0px;
@@ -79,7 +79,7 @@ head{
     margin-top: 100px;
     color: white;
     text-align: center;
-    font-family: 'EFour Digital Pro', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 .start_block .text h3{
     font-size: 30px;
@@ -102,7 +102,7 @@ head{
     display: flex;
     margin: auto;
     justify-content: center;
-    font-family: 'EFour Digital Pro', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-weight: bold;
     color: white;
     border: solid #FFBD59 10px;
@@ -128,8 +128,6 @@ head{
     align-items: center;  
 }
 .text_photo img{
-    outline: 10px solid #FFBD59;
-    border: 10x solid #FFEDAE;   
     border-radius: 15px;
 }
 .text_photo .text{
@@ -145,11 +143,6 @@ head{
 .text_photo_zerkalo{
     align-items: center;  
     
-}
-.text_photo_zerkalo img{
-    outline: 10px solid #FFBD59;
-    border: 10px solid #FFEDAE;   
-    border-radius: 15px;
 }
 .text_photo_zerkalo .text{
     padding-right: 40px;
@@ -195,8 +188,7 @@ head{
     margin-left: 0px;
 }
 .photo img{
-    outline: 10px solid #FFBD59;
-    border: 10px solid #FFEDAE;   
+    box-shadow:  0 0 0 10px #FFEDAE, 0 0 0 20px #FFBD59;
     border-radius: 15px;
 }
 .ya-share2{
@@ -370,18 +362,15 @@ head{
    .text_photo .photo img{
        height: 160px;
        width: 260px;
-       outline: 6px solid #FFBD59;
-       border: 6px solid #FFEDAE;   
+       box-shadow:  0 0 0 6px #FFEDAE, 0 0 0 12px #FFBD59;
    }
    .text_photo_zerkalo .photo img{
        height: 160px;
        width: 260px;
-       outline: 6px solid #FFBD59;
-       border: 6px solid #FFEDAE;   
+       box-shadow:  0 0 0 6px #FFEDAE, 0 0 0 12px #FFBD59;
    }
    .photo img{
-    outline: 6px solid #FFBD59;
-    border: 6px solid #FFEDAE;   
+    box-shadow:  0 0 0 6px #FFEDAE, 0 0 0 12px #FFBD59;
    }
    .dialog .photo{
     display: flex;
