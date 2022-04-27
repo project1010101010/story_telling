@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 html{
     scroll-behavior: smooth;
@@ -38,8 +39,7 @@ head{
     display: flex;
     margin: auto;
     justify-content: center;
-    font-family: 'EFour Digital Pro', cursive;
-    font-weight: bold;
+    font-family: 'Montserrat Alternates', sans-serif;
     color: white;
     border: solid #FFBD59 10px;
     border-top: solid transparent 0px;
@@ -67,7 +67,7 @@ head{
     margin-top: 0px;
 }
 .yakors {
-    font-family: 'EFour Digital Pro', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
     position: fixed; /* Фиксированное положение */
     left: 10px; /* Расстояние от правого края окна браузера */
     top: 20%; /* Расстояние сверху */
@@ -114,7 +114,7 @@ head{
     background: #7D89AB;
 }
 .main_block .text{
-    font-family: 'EFour Digital Pro', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: 15px;
     text-indent: 20px;
     color: white;
@@ -156,7 +156,7 @@ head{
     font-size: 19px;
 }
 .dialog p{
-    font-family: 'EFour Digital Pro', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: 20px;
     color: white;
 }
