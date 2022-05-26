@@ -282,6 +282,14 @@ head{
  }
 
  @media screen and (max-width: 880px){
+    .yakors{
+        display: block;
+        position: relative;
+        margin: auto;
+        width: 150px;
+        left: 0%;
+        margin-bottom: 100px;
+    }
     .dialog p{
         font-size: 11px;
     }
